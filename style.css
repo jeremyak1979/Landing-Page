@@ -77,7 +77,31 @@ img {
 
 .quotesig {
     display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    height: 500px;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 61%;
+    /* align-self: center; */
+    /* justify-self: center; */
+    /* border: 1px solid; */
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    /* align-self: center; */
+    width: 61%;
+    /* border: 1px solid; */
+    padding: 8px;
+    margin-right: 65px;
+    font-weight: bold;
 }
 
 .center {
@@ -88,10 +112,41 @@ img {
 
 .footer {
     display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box { 
     display: flex;
+    height: 45%;
+    width: 70%;
+    /* border: 1px solid; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 30px; */
+    /* border: 1px solid; */
+
+}
+
+
+.time {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.action-two {
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .subtext {
@@ -99,25 +154,58 @@ img {
 }
 
 .information {
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     height: 20%;
-    justify-content: center;
+       
 }
+
 
 .textpic-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: azure;
     height: 100%;
+    gap: 30px;
 }
 
 .textpic {
+    display: flex;
+    flex-direction: column;
     width: 175px;
     height: 200px;
-    border: 1px solid;
+    /* border: 1px solid red; */
+    
+    
 }
+
+.img1 {
+    width: 165px;
+    /* height: auto; */
+    border: 5px solid blue;
+    /* padding: 1px; */
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.text {
+    /* border: 1px solid; */
+    /* align-self: flex-start; */
+    /* margin-bottom: 5px; */
+}
+
+.real-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
 
