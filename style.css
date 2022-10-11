@@ -137,14 +137,14 @@ img {
 
 .time {
     color: #f9faf8;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .action-two {
     color: #e5e7eb;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .subtext {
